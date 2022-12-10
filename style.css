@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    /* background-image: linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0)),url(images/bg-1.gif); */
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    height: 109vh; 
+}
+
+
+.header {
+  overflow: hidden; 
+  background-color: #333;
+  top: 0;
+  width:100%;
+  padding: 10px 5px;
+  color: #FF0404;
+}
+
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight:bold;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color:#FF0404  ;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+   text-decoration: none;
+    color: red;
+  }
+
+
+  
+  
+  
+  
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+  /* Style the active/current link*/
+  a.act{
+ 
+
+  border-radius:30px;
+  }
+  a.logo2{
+    background-color: #333;
+  }
+
+  /* Slider */
+.carousel-item {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.supporting {background-color: #ddd;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.supporting img {
+  height: 62px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppe 
+}
+
+@media (max-width: 500px) {
+  .main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+}
+
+
+/*about styes*/
+
+.bg {
+  
+  background-image: url("images/abt-bg-2.jpg");height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.l-t li{
+    list-style-type: disc;
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.l-t li::first-letter{
+    font-size: 200%;
+    color:red
+}
+
+.introduction-section,
+.location-section
+ {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.introduction-section > p,
+.location-section > p
+ {
+   
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+ .heading-about{
+    color: white;
+    font-family: serif;
+    text-align: center;
+}
+.para-about{
+     color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.content-about{
+     background-color: white;
+    margin-top: -2rem;
+    margin-bottom: -1rem;
+}
+
+/*about style endes*/
+
+
